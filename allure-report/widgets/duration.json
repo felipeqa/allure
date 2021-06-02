@@ -1,0 +1,11 @@
+[ {
+  "uid" : "e65b68423e7d4fc1",
+  "name" : "Rota incluir novo Grupo Medico",
+  "time" : {
+    "start" : 1622655186693,
+    "stop" : 1622655187052,
+    "duration" : 359
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

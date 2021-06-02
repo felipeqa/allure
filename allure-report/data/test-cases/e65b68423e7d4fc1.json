@@ -1,0 +1,240 @@
+{
+  "uid" : "e65b68423e7d4fc1",
+  "name" : "Rota incluir novo Grupo Medico",
+  "fullName" : "Rota incluir novo Grupo Medico",
+  "historyId" : "d99c45d2191aeef4517ab7afc0910429",
+  "time" : {
+    "start" : 1622655186693,
+    "stop" : 1622655187052,
+    "duration" : 359
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "rota_incluir_grupo_medico (\"[object Object]\")",
+      "time" : {
+        "start" : 1622655186707,
+        "stop" : 1622655187050,
+        "duration" : 343
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "auth (\"f15774282856\"; \"Senhas\")",
+        "time" : {
+          "start" : 1622655186709,
+          "stop" : 1622655186902,
+          "duration" : 193
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "request (\"[object Object]\")",
+          "time" : {
+            "start" : 1622655186710,
+            "stop" : 1622655186869,
+            "duration" : 159
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "expected **eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ6TzhsX0U0Z1diT3RnWlAyRXVyRVlUTld0RzJ2Y3M5ZWVWUDI3YU5kZ2dNIn0.eyJleHAiOjE2MjI2NTU3ODYsImlhdCI6MTYyMjY1NTE4NiwianRpIjoiYTYwZmViNzEtNWM4My00MGUwLTg4MWUtMzc3ZjI4N2UxOTI4IiwiaXNzIjoiaHR0cHM6Ly9pZC5henItaG1sLmRhc2FleHAuaW8vYXV0aC9yZWFsbXMvRnVuY2lvbmFyaW9zIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6ImJlYmViODVhLWI3MDItNDc3Zi05MjUyLTNmOWRlM2YzNTgzMCIsInR5cCI6IkJlYXJlciIsImF6cCI6ImhpZ2lhLWZyb250ZW5kIiwic2Vzc2lvbl9zdGF0ZSI6ImFiOTY5ZDVlLWRkYmMtNGNhMi1iMjhiLTA5MzlkZjQ3ZjliOSIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cDovL2hnLWZyb250ZW5kLmF6ci1kZXYuZGFzYWV4cC5pby8qIiwiaHR0cDovL2xvY2FsaG9zdDo4MDgwIiwiaHR0cDovL2xvY2FsaG9zdDo4MDgxIiwiaHR0cDovL2hnLWZyb250ZW5kLmF6ci1obWwuZGFzYWV4cC5pby8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgcm9sZXMiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJIRzAwMDAzIiwicHJlZmVycmVkX3VzZXJuYW1lIjoiaGcwMDAwMyIsImdpdmVuX25hbWUiOiJIRzAwMDAzIn0.OEpBXcPFOnNPJXAYvvYJsIM8umz_ESU-mG5lKNNQeczjTHj8Hl2ipN2BAy033LnSb8jmyo6gd7Lr-pMKil4KhoTTzN9NWv1Ls3ayAOsB1RT34w8mFSWQwWx-Irv1La5i47Ev9JW9Qaav7suTNwA3xyWlqv1nHUaBNsx1ZQ1OnB6gNvpXQV3QsPa7RSxIssQ5nJk6Jx3DYmfYBhbyjqel7bCBjQXyanEwHzdwYhEqLDJFrC_aCr9mu-OuI9fddSflqImcjUl0zPuK0sx9wt-tsvqYRThnDwPg1dmhmR-X3Jwmo-ebQXYU64Uc8ZB75STSUooozBsdH0ktoP_j2zYMRw** not to be empty assert",
+          "time" : {
+            "start" : 1622655186901,
+            "stop" : 1622655186901,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "expected **200** to equal **200** assert",
+          "time" : {
+            "start" : 1622655186902,
+            "stop" : 1622655186902,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "request (\"[object Object]\")",
+        "time" : {
+          "start" : 1622655186905,
+          "stop" : 1622655187030,
+          "duration" : 125
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "ID da Marca: expected **8** to equal **8** assert",
+        "time" : {
+          "start" : 1622655187048,
+          "stop" : 1622655187048,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Id do médico: expected **3997** to equal **3997** assert",
+        "time" : {
+          "start" : 1622655187048,
+          "stop" : 1622655187048,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "ID da modalidade: expected **11** to equal **11** assert",
+        "time" : {
+          "start" : 1622655187049,
+          "stop" : 1622655187049,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "ID do negócio: expected **3** to equal **3** assert",
+        "time" : {
+          "start" : 1622655187049,
+          "stop" : 1622655187049,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Nome: expected **GM Austria 1622655186706** to equal **GM Austria 1622655186706** assert",
+        "time" : {
+          "start" : 1622655187049,
+          "stop" : 1622655187049,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "ID da Regional: expected **5** to equal **5** assert",
+        "time" : {
+          "start" : 1622655187049,
+          "stop" : 1622655187049,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "expected **200** to equal **200** assert",
+        "time" : {
+          "start" : 1622655187050,
+          "stop" : 1622655187050,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 12,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 13,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Rotas incluir Agrupamentos"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e65b68423e7d4fc1.json",
+  "parameterValues" : [ ]
+}

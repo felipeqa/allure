@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Rotas incluir Agrupamentos",
+    "children" : [ {
+      "name" : "Rota incluir novo Grupo Medico",
+      "uid" : "e65b68423e7d4fc1",
+      "parentUid" : "0e0c33082602739488ed4d3e8ea34ba5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622655186693,
+        "stop" : 1622655187052,
+        "duration" : 359
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0e0c33082602739488ed4d3e8ea34ba5"
+  } ],
+  "name" : "suites"
+}
